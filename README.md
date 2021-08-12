@@ -12,6 +12,7 @@ List of official patches:
 
 * actualfullscreen
 * alpha
+* attachdirection
 * cfacts
 * cyclelayouts
 * fadeinactive
