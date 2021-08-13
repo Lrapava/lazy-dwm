@@ -14,8 +14,8 @@ List of official patches:
 * alpha
 * attachdirection
 * cfacts
-* vanitygaps
 * cyclelayouts
 * fadeinactive
 * movestack
 * systray
+* vanitygaps
