@@ -22,5 +22,5 @@ List of official patches:
 
 Official layout patches:
 
-* centeredmaster
-* tatami
+* centeredmaster (no gaps support yet)
+* tatami (no gaps support yet)
