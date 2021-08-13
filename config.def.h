@@ -53,7 +53,7 @@ static const Rule rules[] = {
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
+static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 static const int attachdirection = 0;    /* 0 default, 1 above, 2 aside, 3 below, 4 bottom, 5 top */
 static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
 
@@ -75,6 +75,7 @@ static const Layout layouts[] = {
 	{ ":::",      gaplessgrid },
 	{ "|M|",      centeredmaster },
 	{ ">M>",      centeredfloatingmaster },
+	{ "|+|",      tatami },
 	{ "><>",      NULL },    /* no layout function means floating behavior */
 	{ NULL,       NULL },
 };
@@ -144,7 +145,8 @@ static Key keys[] = {
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[10]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[11]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[12]} },
-	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[13]} },
+	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[13]} },
+	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[14]} },
 	{ MODKEY|ControlMask,			XK_comma,  cyclelayout,    {.i = -1 } },
 	{ MODKEY|ControlMask,           XK_period, cyclelayout,    {.i = +1 } },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
