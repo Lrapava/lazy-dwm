@@ -14,15 +14,8 @@ List of official patches:
 * alpha
 * attachdirection
 * cfacts
+* vanitygaps
 * cyclelayouts
 * fadeinactive
-* fullgaps
 * movestack
 * systray
-
-Official layout patches: (no gaps support yet)
-
-* centeredmaster
-* fibonacci
-* gridmode
-* tatami
