@@ -18,4 +18,5 @@ List of official patches:
 * fadeinactive
 * movestack
 * systray
+* tatami
 * vanitygaps
