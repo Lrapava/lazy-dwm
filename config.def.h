@@ -62,20 +62,20 @@ static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen win
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[]=",      tile },    /* first entry is default */ // 0
-	{ "[M]",      monocle }, // 1
-	{ "[@]",      spiral }, // 2
-	{ "[\\]",     dwindle }, // 3
-	{ "H[]",      deck }, // 4
-	{ "TTT",      bstack }, // 5
-	{ "===",      bstackhoriz }, // 6
-	{ "HHH",      grid }, // 7
-	{ "###",      nrowgrid }, // 8
-	{ "---",      horizgrid }, // 9
-	{ ":::",      gaplessgrid }, // 10
-	{ "|M|",      centeredmaster }, // 11
-	{ ">M>",      centeredfloatingmaster }, // 12
-	{ "><>",      NULL },    /* no layout function means floating behavior */ // 13
+	{ "[]=",      tile },    /* first entry is default */
+	{ "[M]",      monocle },
+	{ "[@]",      spiral },
+	{ "[\\]",     dwindle },
+	{ "H[]",      deck },
+	{ "TTT",      bstack },
+	{ "===",      bstackhoriz },
+	{ "HHH",      grid },
+	{ "###",      nrowgrid },
+	{ "---",      horizgrid },
+	{ ":::",      gaplessgrid },
+	{ "|M|",      centeredmaster },
+	{ ">M>",      centeredfloatingmaster },
+	{ "><>",      NULL },    /* no layout function means floating behavior */
 	{ NULL,       NULL },
 };
 
@@ -133,17 +133,17 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[1]} },
-	{ MODKEY,                       XK_r,      setlayout,      {.v = &layouts[2]} },
-	{ MODKEY|ShiftMask,             XK_r,      setlayout,      {.v = &layouts[3]} },
+	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[2]} },
+	// { MODKEY|ShiftMask,             XK_,      setlayout,      {.v = &layouts[3]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[4]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[5]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[6]} },
-	{ MODKEY,                       XK_g,      setlayout,      {.v = &layouts[7]} },
+	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[7]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[8]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[9]} },
 	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[10]} },
-	{ MODKEY,                       XK_u,      setlayout,      {.v = &layouts[11]} },
-	{ MODKEY,                       XK_o,      setlayout,      {.v = &layouts[12]} },
+	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[11]} },
+	// { MODKEY,                       XK_,      setlayout,      {.v = &layouts[12]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[13]} },
 	{ MODKEY|ControlMask,			XK_comma,  cyclelayout,    {.i = -1 } },
 	{ MODKEY|ControlMask,           XK_period, cyclelayout,    {.i = +1 } },
