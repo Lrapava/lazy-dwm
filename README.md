@@ -19,3 +19,8 @@ List of official patches:
 * fullgaps
 * movestack
 * systray
+
+Official layout patches:
+
+* centeredmaster
+* tatami
