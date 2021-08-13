@@ -20,8 +20,9 @@ List of official patches:
 * movestack
 * systray
 
-Official layout patches:
+Official layout patches: (no gaps support yet)
 
-* centeredmaster	(no gaps support yet)
-* gridmode 			(no gaps support yet)
-* tatami			(no gaps support yet)
+* centeredmaster
+* fibonacci
+* gridmode
+* tatami
