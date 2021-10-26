@@ -13,10 +13,10 @@ List of official patches:
 * actualfullscreen
 * alpha
 * attachdirection
+* barpadding
 * cfacts
+* cfacts-vanitygaps
 * cyclelayouts
 * fadeinactive
 * movestack
 * systray
-* tatami
-* vanitygaps
