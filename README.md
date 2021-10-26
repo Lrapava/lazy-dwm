@@ -8,7 +8,7 @@ Our goal is to save DWM users some time by applying patches they would likely ha
 
 # Patches we've applied
 
-List of official patches:
+Patches that work without known issues:
 
 * actualfullscreen
 * alpha
@@ -20,3 +20,7 @@ List of official patches:
 * fadeinactive
 * movestack
 * systray
+
+Patches that work with some issues:
+
+* tatami (Issue: gaps do not apply)
